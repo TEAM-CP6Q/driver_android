@@ -1,3 +1,65 @@
 <resources>
-    <string name="app_name">RefreshDriverApp</string>
+    <string name="app_name">REFRESH Driver</string>
+
+    <!-- Login/Signup -->
+    <string name="login_title">로그인</string>
+    <string name="signup_title">회원가입</string>
+    <string name="email_hint">이메일</string>
+    <string name="password_hint">비밀번호</string>
+    <string name="password_confirm_hint">비밀번호 확인</string>
+    <string name="login_button">로그인</string>
+    <string name="signup_button">회원가입</string>
+    <string name="forgot_password">비밀번호 찾기</string>
+    <string name="create_account">계정 생성</string>
+    <string name="already_have_account">이미 계정이 있나요?</string>
+
+    <!-- Main Screen -->
+    <string name="refresh_driver">REFRESH 드라이버</string>
+    <string name="pickup_list">수거지 목록</string>
+    <string name="all">전체</string>
+    <string name="incomplete">미완료</string>
+    <string name="completed">완료</string>
+    <string name="sort_by_distance">거리순</string>
+    <string name="sort_by_time">시간순</string>
+    <string name="optimize_route">경로최적화</string>
+    <string name="refresh">새로고침</string>
+    <string name="auto_select">자동선택</string>
+    <string name="clear_selection">선택 초기화</string>
+    <string name="start_navigation">내비게이션 시작</string>
+    <string name="selected_pickups">선택된 수거지: %d개</string>
+
+    <!-- Navigation -->
+    <string name="navigation_title">내비게이션</string>
+    <string name="pickup_complete">수거 완료</string>
+    <string name="recalculate_route">경로 재계산</string>
+    <string name="stop_navigation">내비게이션 종료</string>
+    <string name="current_speed">현재 속도</string>
+    <string name="remaining_distance">남은 거리</string>
+    <string name="remaining_time">도착 예정</string>
+    <string name="current_road">현재 도로</string>
+
+    <!-- Common -->
+    <string name="loading">로딩 중...</string>
+    <string name="error">오류</string>
+    <string name="confirm">확인</string>
+    <string name="cancel">취소</string>
+    <string name="ok">확인</string>
+    <string name="back">뒤로</string>
+    <string name="close">닫기</string>
+    <string name="call">전화걸기</string>
+    <string name="navigate">내비게이션</string>
+    <string name="location_checking">위치 확인 중...</string>
+    <string name="distance_calculating">거리 계산 중...</string>
+
+    <!-- Permissions -->
+    <string name="permission_location_required">위치 권한이 필요합니다</string>
+    <string name="permission_location_denied">위치 권한이 거부되었습니다</string>
+
+    <!-- Errors -->
+    <string name="network_error">네트워크 연결을 확인해주세요</string>
+    <string name="login_failed">로그인에 실패했습니다</string>
+    <string name="signup_failed">회원가입에 실패했습니다</string>
+    <string name="location_failed">위치 정보를 가져올 수 없습니다</string>
+    <string name="route_calculation_failed">경로 계산에 실패했습니다</string>
+
 </resources>
